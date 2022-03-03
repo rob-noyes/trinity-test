@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='w-full px-4 pb-32 text-white bg-phonebg  border-x border-border'>
+    <div className='w-full px-4 text-white bg-phonebg  border-x border-border'>
       <h2 className='text-4xl font-playfairDisplay font-semibold  leading-snug'>
         Gain new insight to grow digital revenues faster.
       </h2>
@@ -19,7 +19,7 @@ const Hero = () => {
           understand what digital growth opportunities exist in your business.
         </p>
         <p className='pt-4'>Within your strategy session you will receive:</p>
-        <ul className='list-disc list-outside px-4'>
+        <ul className='list-disc list-outside px-4 pb-[96.5px]'>
           <li className='py-4'>
             An expert analysis of your eCommerce store or website
           </li>
