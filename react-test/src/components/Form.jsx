@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = () => {
   return (
-    <div className='mx-4 h-[600px] relative flex justify-center items-center'>
+    <div className=' h-[600px] relative flex justify-center items-center mx-4'>
       <div className='w-full absolute -top-[6rem] bg-white flex justify-center rounded-mdlg flex-col shadow-2xl py-8 '>
         <div className='flex justify-center items-center flex-col pb-4'>
           <p className='text-[#CE427A] font-bold text-lg tracking-form'>FREE</p>

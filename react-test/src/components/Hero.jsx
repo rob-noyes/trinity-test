@@ -10,7 +10,7 @@ const Hero = () => {
         Sign up for your <span className='font-semibold'>FREE</span> Website
         Strategy Session ($795 value)
       </p>
-      <div className='py-4 leading-6 font-light'>
+      <div className='py-4 leading-6 '>
         <p>
           In a <span className='font-semibold'>FREE</span> consultation
           discussion with our CEO,{' '}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Divide() {
+const Divide = () => {
   return (
     <div className='flex justify-center px-4 flex-col pb-6'>
       <div className='border-t my-[31.5px] border-input'></div>
@@ -9,6 +9,6 @@ function Divide() {
       </h2>
     </div>
   );
-}
+};
 
 export default Divide;

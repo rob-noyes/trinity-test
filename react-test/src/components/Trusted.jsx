@@ -1,7 +1,12 @@
 import React from 'react';
 
-function Trusted() {
-  return <div>Trusted</div>;
-}
+const Trusted = () => {
+  return (
+    <div className='flex flex-col items-center'>
+      <h3 className='font-bold text-lg'>TRUSTED BY:</h3>
+      <div></div>
+    </div>
+  );
+};
 
 export default Trusted;
