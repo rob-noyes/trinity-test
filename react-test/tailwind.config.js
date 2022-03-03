@@ -12,6 +12,7 @@ module.exports = {
         border: '#979797',
         form: '#454545',
         input: '#A2B9C2',
+        block: '#ED9E98',
       },
       width: {
         140: '140px',
