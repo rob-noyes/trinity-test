@@ -2,15 +2,17 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='w-full px-4 text-white bg-phonebg  border-x border-border'>
-      <h2 className='text-4xl font-playfairDisplay font-semibold  leading-snug'>
-        Gain new insight to grow digital revenues faster.
-      </h2>
-      <p className='pt-4 text-xl'>
-        Sign up for your <span className='font-semibold'>FREE</span> Website
-        Strategy Session ($795 value)
-      </p>
-      <div className='py-4 leading-6 '>
+    <div className='w-full px-4 text-white border-x border-border lg:border-x-0'>
+      <div>
+        <h2 className='text-4xl font-playfairDisplay font-semibold leading-snug lg:text-[56px] lg:max-w-[600px]'>
+          Gain new insight to grow digital revenues faster.
+        </h2>
+        <p className='pt-4 text-xl lg:pt-[26px]'>
+          Sign up for your <span className='font-semibold'>FREE</span> Website
+          Strategy Session ($795 value)
+        </p>
+      </div>
+      <div className='py-4 leading-6 lg:pt-[128px] lg:w-full lg:max-w-[650px] lg:text-form'>
         <p>
           In a <span className='font-semibold'>FREE</span> consultation
           discussion with our CEO,{' '}
@@ -19,7 +21,7 @@ const Hero = () => {
           understand what digital growth opportunities exist in your business.
         </p>
         <p className='pt-4'>Within your strategy session you will receive:</p>
-        <ul className='list-disc list-outside px-4 pb-[96.5px]'>
+        <ul className='list-disc list-outside px-4 pb-[96.5px] lg:pb-0'>
           <li className='py-4'>
             An expert analysis of your eCommerce store or website
           </li>

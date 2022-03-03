@@ -3,7 +3,7 @@ import Block from './Block';
 
 const ValueBlocks = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center lg:flex-row lg:justify-center'>
       <Block
         number='1'
         src='./image-assets/vid-chat.png'
