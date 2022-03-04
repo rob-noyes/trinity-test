@@ -11,6 +11,14 @@
 :root {
   --main-bg-color: #2d394a;
   --main-text-color: #ffffff;
+  --main-form-text-color: #454545;
+  --secondary-font: 'Playfair Display', serif;
+  --input-form-border: #a2b9c2;
+  --value-background-image-color: #ed9e98;
+}
+
+body {
+  width: 100%;
 }
 
 /*********
@@ -53,7 +61,6 @@
 **********/
 
 #hero {
-  background: var(--main-bg-color);
   color: var(--main-text-color);
   padding: 0 1rem;
 }
@@ -88,4 +95,210 @@
 #hero-listing li {
   list-style-image: url(/vanilla-javascript/image-assets/checkmark.png);
   padding-bottom: 1rem;
+}
+
+.desktop-bg {
+  background: rgb(45, 57, 74);
+  background: -moz-linear-gradient(
+    175deg,
+    rgba(45, 57, 74, 1) 57%,
+    rgba(255, 255, 255, 1) 57.1%
+  );
+  background: -webkit-linear-gradient(
+    175deg,
+    rgba(45, 57, 74, 1) 57%,
+    rgba(255, 255, 255, 1) 57.1%
+  );
+  background: linear-gradient(
+    175deg,
+    rgba(45, 57, 74, 1) 57%,
+    rgba(255, 255, 255, 1) 57.1%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2d394a",endColorstr="#ffffff",GradientType=1);
+}
+
+/********
+  FORM
+********/
+
+#form-container {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  color: var(--main-form-text-color);
+  background: var(--main-text-color);
+  border-radius: 7px;
+}
+
+.form > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form > div > h4 {
+  color: #ce427a;
+  font-weight: bold;
+  letter-spacing: 3.13px;
+  padding-top: 2rem;
+  font-size: 18px;
+}
+
+.form > div > h2 {
+  font-family: var(--secondary-font);
+  font-size: 1.375rem;
+  padding: 0.3rem 1rem 1rem 1rem;
+  font-weight: bold;
+}
+
+.input-form {
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1rem;
+}
+
+.input-form > label {
+  padding-bottom: 0.5rem;
+}
+
+.input-form > input {
+  height: 2.875rem;
+  border: 1px solid var(--input-form-border);
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+#submit-btn {
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  max-width: fit-content;
+  border: none;
+  border-radius: 7px;
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+  margin-bottom: 2rem;
+}
+
+/*********
+  DIVIDE
+*********/
+
+.divide-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.divide-container > h2 {
+  font-family: var(--secondary-font);
+  font-size: 1.375rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--main-bg-color);
+}
+
+#divider {
+  border-top: 1px solid var(--input-form-border);
+  width: 100%;
+  margin: 2rem 1rem;
+}
+
+/**************
+  VALUE BLOCKS 
+***************/
+
+#value-blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.image-assets {
+  width: 100%;
+}
+
+.value {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 1.4375rem;
+  margin-bottom: 1rem;
+  color: var(--main-form-text-color);
+  border-radius: 7px;
+}
+
+.value-img {
+  background: var(--value-background-image-color);
+  width: 100%;
+  max-height: 5.5rem;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  object-fit: contain;
+}
+
+.value-copy {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 1rem;
+  line-height: 25px;
+}
+
+.value-copy > h2 {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+/**********
+ Image Slider
+***********/
+
+.image-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.image-slider > h4 {
+  letter-spacing: 1.64px;
+  line-height: 25px;
+  font-size: 18px;
+  color: var(--main-form-text-color);
+  font-weight: 700;
+}
+
+/********
+  FOOTER
+*********/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+footer > img {
+  padding-top: 1rem;
+  height: 3.875rem;
+}
+footer > p {
+  line-height: 25px;
+  padding: 1rem;
 }
