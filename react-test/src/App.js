@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='font-roboto relative'>
       <Header />
-      <div className='lg:flex lg:flex-row lg:justify-around lg:w-full lg:bg-white lg:px-16 lg:border-x lg:border-border desktop-bg'>
+      <div className='lg:flex lg:flex-row lg:justify-around lg:w-full lg:px-16 lg:border-x lg:border-border desktop-bg'>
         <Hero />
         <Form />
       </div>

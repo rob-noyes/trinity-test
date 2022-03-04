@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+:root {
+  --main-bg-color: #2d394a;
+  --main-text-color: #ffffff;
+}
+
+/*********
+  UTILITY
+**********/
+.bold {
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/***********
+    HEADER
+***********/
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-bg-color);
+}
+
+.banner {
+  width: 100%;
+  text-align: center;
+  background: #232e3e;
+  padding: 0.5rem 3.5625rem;
+  color: var(--main-text-color);
+}
+
+.logo > img {
+  width: 100%;
+  padding: 2rem 5.625rem;
+}
+
+/*********
+  HERO
+**********/
+
+#hero {
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+  padding: 0 1rem;
+}
+
+.trinity-tag > h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
+.trinity-tag > p,
+.trinity-tag > p > span {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  line-height: 26px;
+}
+
+.trinity-copy {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+
+#hero-padding {
+  padding: 1rem 0;
+}
+
+#hero-listing {
+  padding-left: 1.4rem;
+}
+
+#hero-listing li {
+  list-style-image: url(/vanilla-javascript/image-assets/checkmark.png);
+  padding-bottom: 1rem;
+}
